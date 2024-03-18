@@ -25,4 +25,5 @@ public:
 
 	virtual void HighLightActor() = 0;
 	virtual void UnHigLightActor() = 0;
+	
 };
