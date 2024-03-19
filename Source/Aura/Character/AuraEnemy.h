@@ -18,6 +18,8 @@ class AURA_API AAuraEnemy : public AAuraCharacterBase, public IEnemyInterface
 
 public:
 	AAuraEnemy();
+
+	virtual void BeginPlay() override;
 	virtual void HighLightActor()  override;
 	virtual void UnHigLightActor() override;
 	
