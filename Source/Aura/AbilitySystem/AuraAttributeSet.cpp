@@ -2,11 +2,11 @@
 
 
 #include "AuraAttributeSet.h"
-#include "AbilitySystemComponent.h"
 #include "Net/UnrealNetwork.h"
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
+	InitHealth(1000); //FOR DEBUG AND TESTING PURPOSES ONLY NOT FINAL PLACE WHERE HEALTH WILL BE SET
 }
 
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
